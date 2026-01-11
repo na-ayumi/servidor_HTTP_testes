@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/express": "^5.0.6",
     "dotenv": "^17.2.3",
+    "express": "^5.2.1",
     "inversify": "^7.11.0",
     "nodemailer": "^7.0.12",
     "reflect-metadata": "^0.2.2",
@@ -23,5 +24,13 @@
     "@types/nodemailer": "^7.0.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/na-ayumi/servidor_HTTP_testes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/na-ayumi/servidor_HTTP_testes/issues"
+  },
+  "homepage": "https://github.com/na-ayumi/servidor_HTTP_testes#readme"
 }
