@@ -3,5 +3,5 @@ export interface IMailer {
         to: string,
         subject: string,
         body: string
-    ): void;
+    ): Promise<void>;
 }
