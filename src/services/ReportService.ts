@@ -1,8 +1,8 @@
 import { injectable, inject  } from "inversify";
 import { faker } from "@faker-js/faker";
-import { IReportService } from "../interfaces/IReportService";
-import { ILogger } from "../interfaces/ILogger";
-import { IMailer } from "../interfaces/IMailer";
+import { IReportService } from "../domain/IReportService";
+import { ILogger } from "../domain/ILogger";
+import { IMailer } from "../domain/IMailer";
 import { TYPES } from "../types";
 
 export class InvalidReportSizeError extends Error {

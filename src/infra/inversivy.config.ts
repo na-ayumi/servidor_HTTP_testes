@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import { Container } from "inversify";
-import { ILogger } from "../interfaces/ILogger";
-import { IMailer } from "../interfaces/IMailer";
+import { ILogger } from "../domain/ILogger";
+import { IMailer } from "../domain/IMailer";
 
 import { WinstonConsole } from "./logger/WinstonConsole";
 import { WinstonFile } from "./logger/WinstonFile";

@@ -1,6 +1,6 @@
 import { injectable } from "inversify";
 import nodemailer from "nodemailer";
-import { IMailer } from "../../interfaces/IMailer";
+import { IMailer } from "../../domain/IMailer";
 
 @injectable()
 export class SMTPMailer implements IMailer {

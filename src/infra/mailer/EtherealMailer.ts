@@ -1,8 +1,8 @@
 import { inject, injectable } from "inversify";
 import nodemailer from "nodemailer";
 import { TYPES } from "../../types";
-import { IMailer } from "../../interfaces/IMailer";
-import { ILogger } from "../../interfaces/ILogger";
+import { IMailer } from "../../domain/IMailer";
+import { ILogger } from "../../domain/ILogger";
 
 @injectable()
 export class EtherealMailer implements IMailer{
