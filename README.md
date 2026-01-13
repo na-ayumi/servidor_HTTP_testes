@@ -24,12 +24,12 @@
 
 Para rodar o Teste do ReportService (Domínio):
 
-    ```
-    npx vitest report-service.spec.ts
-    ```
+```bash
+npx vitest report-service.spec.ts
+```
     
 Para rodar o Teste do ReportHttpAdapter (Camada HTTP):
 
-    ```
-    npx vitest report-http-adapter.spec.ts
-    ```
+```bash
+npx vitest report-http-adapter.spec.ts
+```
