@@ -1,6 +1,7 @@
+// npm install -D vitest
+// npm install -D supertest @types/supertest
 import { Request, Response } from "express";
 import { inject, injectable } from "inversify";
-
 import { TYPES } from "../types";
 import { ILogger } from "../domain/ILogger";
 import { IReportService } from "../domain/IReportService";

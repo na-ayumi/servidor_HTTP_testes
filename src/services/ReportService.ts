@@ -7,7 +7,7 @@ import { TYPES } from "../types";
 
 export class InvalidReportSizeError extends Error {
     constructor() {
-        super("Erro: Número inváilido de registro.");
+        super("Erro: Número inválido de registro.");
         this.name = "InvalidReportSizeError"
     }
 }
