@@ -10,13 +10,13 @@
     ```bash
     npm install
     ```
-     ```bash
+    ```bash
     npm install inversify reflect-metadata
     ```
-   ```bash
+    ```bash
     npm install -D vitest
     ```
-   ```bash
+    ```bash
     npm install -D supertest @types/supertest
     ```
 
@@ -24,12 +24,12 @@
 
 Para rodar o Teste do ReportService (Domínio):
 
-```bash
-npx vitest report-service.spec.ts
-```
+    ```bash
+    npx vitest report-service.spec.ts
+    ```
 
 Para rodar o Teste do ReportHttpAdapter (Camada HTTP):
 
-```bash
-npx vitest report-http-adapter.spec.ts
-```
+    ```bash
+    npx vitest report-http-adapter.spec.ts
+    ```
