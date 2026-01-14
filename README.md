@@ -1,4 +1,7 @@
 # servidor_HTTP_testes
+## Servidor HTTP com InversifyJS
+O trabalho anterior precisou ser refeito para que os testes funcionassem, tivemos dificuldades na hora de fazer o trabalho anterior. Porém, refizemos o servidor e agora está funcionando corretamente.
+
 ## Instalação e Configuração
 1.  **Clone o código do GitHub:**
     ```bash
